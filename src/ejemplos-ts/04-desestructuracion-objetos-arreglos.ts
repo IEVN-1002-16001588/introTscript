@@ -37,3 +37,11 @@ console.log(`VSegundos: ${segundos}`);
 //Aqui lo vemos de nuevo pero con las interface anidados
 const{autor}=detalles;
 console.log(`Segundos: ${autor}`);
+
+const colores:string[]=['blue','red','green','violet'];
+console.log(`Color 1: ${colores[0]}`);
+console.log(`Color 2: ${colores[1]}`);
+console.log(`Color 3: ${colores[2]}`);
+
+const [azul,,,b]=colores;
+console.log(`Color 2: ${b}`);
